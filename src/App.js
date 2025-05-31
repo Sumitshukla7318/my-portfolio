@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -12,25 +11,25 @@ import Certifications from './components/Certifications';
 import Resume from './components/Resume';
 import './App.css';
 
-
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Hero />} />
-        <Route path="/Home" element={<Hero />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/certifications" element={<Certifications />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </div>
+    <BrowserRouter basename="/my-portfolio">
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/Home" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/certifications" element={<Certifications />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
-
 
 export default App;
