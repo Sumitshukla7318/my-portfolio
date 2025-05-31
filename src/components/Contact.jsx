@@ -102,7 +102,7 @@ function Contact() {
             <FaPhone style={{ marginRight: '0.5rem', color: '#38bdf8' }} /> +91 7318206263
           </p>
           <p style={{ display: 'flex', alignItems: 'center' }}>
-            <FaMapMarkerAlt style={{ marginRight: '0.5rem', color: '#38bdf8' }} /> Praygraj, India
+            <FaMapMarkerAlt style={{ marginRight: '0.5rem', color: '#38bdf8' }} /> Prayagraj, India
           </p>
         </div>
 
