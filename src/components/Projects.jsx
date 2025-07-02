@@ -99,7 +99,7 @@ function Projects() {
             <a href="https://github.com/Sumitshukla7318/Online-Academy" target="_blank" rel="noopener noreferrer" style={buttonStyle}>
               <FaGithub /> GitHub
             </a>
-            <a href="https://online-academy-live.vercel.app" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
               <FaExternalLinkAlt /> Live
             </a>
           </div>
@@ -116,7 +116,7 @@ function Projects() {
             <a href="https://github.com/Sumitshukla7318/BankProject" target="_blank" rel="noopener noreferrer" style={buttonStyle}>
               <FaGithub /> GitHub
             </a>
-            <a href="https://banking-app.vercel.app" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
               <FaExternalLinkAlt /> Live
             </a>
           </div>
@@ -133,7 +133,7 @@ function Projects() {
             <a href="https://github.com/Sumitshukla7318/ecommerce-website" target="_blank" rel="noopener noreferrer" style={buttonStyle}>
               <FaGithub /> GitHub
             </a>
-            <a href="https://shopzone.vercel.app" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
               <FaExternalLinkAlt /> Live
             </a>
           </div>
@@ -150,7 +150,7 @@ function Projects() {
             <a href="https://github.com/Sumitshukla7318/ImgCompressPro" target="_blank" rel="noopener noreferrer" style={buttonStyle}>
               <FaGithub /> GitHub
             </a>
-            <a href="https://imgopt.vercel.app" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
               <FaExternalLinkAlt /> Live
             </a>
           </div>
@@ -167,7 +167,7 @@ function Projects() {
             <a href="https://github.com/Sumitshukla7318/SalesTracker" target="_blank" rel="noopener noreferrer" style={buttonStyle}>
               <FaGithub /> GitHub
             </a>
-            <a href="https://analytics-board.vercel.app" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
+            <a href="#" target="_blank" rel="noopener noreferrer" style={liveButtonStyle}>
               <FaExternalLinkAlt /> Live
             </a>
           </div>

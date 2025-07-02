@@ -63,7 +63,7 @@ function Hero() {
           I’ve completed my BCA and have worked on e-commerce platforms, chat apps, and practical tools like an image compressor.
         </p>
         <a
-          href="/projects"
+          href="/my-portfolio/projects"
           style={styles.btn}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
